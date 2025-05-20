@@ -65,7 +65,6 @@ public class Pedido {
         return items;
     }
 
-    // Este método mapeia os produtos dos itens do pedido
     public List<Produto> getpedido() {
         return items.stream().map(x -> x.getProduto()).toList();
     }
